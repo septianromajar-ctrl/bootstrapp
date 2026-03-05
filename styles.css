@@ -12,10 +12,10 @@
 .icon-service {
     width: 90px;
     height: 90px;
-    border: solid 2px #F59E0B;
+    border: solid 2px black;
     border-radius: 50%;
-    color: #F59E0B;
-    background-color: #0F172A;
+    color: rgb(12, 111, 27);
+    background-color: #ffffff;
 }
 
 .promo-bg,
