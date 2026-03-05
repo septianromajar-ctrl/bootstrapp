@@ -1,0 +1,28 @@
+.produk-banner {
+    height: 100vh;
+    background: linear-gradient(rgba(15,23,42,0.7), rgba(15,23,42,0.7)), url('image/background.avif');
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: #0F172A;
+}
+
+.footer .social-icon {
+    font-size: 1.6rem;
+    color: #E2E8F0;
+}
+
+.footer .social-icon:hover {
+    color: #F59E0B;
+}

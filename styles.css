@@ -1,0 +1,108 @@
+.banner {
+    height: 100vh;
+    background: linear-gradient(rgba(15,23,42,0.7), rgba(15,23,42,0.7)), url('image/background.avif');
+    background-size: cover;
+    background-position: center;
+}
+
+.main-color {
+    background-color: rgb(12, 111, 27) !important;
+}
+
+.icon-service {
+    width: 90px;
+    height: 90px;
+    border: solid 2px #F59E0B;
+    border-radius: 50%;
+    color: #F59E0B;
+    background-color: #0F172A;
+}
+
+.promo-bg,
+.produk-bg,
+.reservasi-bg {
+    background-color: #F8FAFC;
+}
+
+.testimony {
+    background-color: #00ff1a;
+}
+
+.testimony row { 
+    display: flex; 
+} 
+
+.testimony-card { 
+    background: rgb(12, 111, 27) !important; 
+    border: 1px solid rgb(12, 111, 27) !important; 
+    border-radius: 16px; 
+    padding: 28px; 
+    transition: .3s; 
+    height: 100%; 
+    margin-bottom: 28px; 
+    width: 100%; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+} 
+    
+.testimony-card:hover { 
+    transform: translateY(-6px); 
+    background: rgba(255, 255, 255, 0.13); 
+    border-color: rgba(255, 255, 255, 0.3); 
+} 
+
+.testimony-card .quote-icon { 
+    font-size: 2rem; 
+    color: #FFC107; 
+    line-height: 1; 
+    margin-bottom: 10px; 
+} 
+
+.testimony-card h5 { 
+    font-size: 1rem; 
+    color: #fff; 
+    margin-bottom: 4px; 
+    font-weight: 700; 
+} 
+
+.testimony-card .author { 
+    font-size: 0.8rem; 
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 12px; 
+} 
+
+.testimony-card p { 
+    font-size: 0.88rem; 
+    color: rgba(255, 255, 255, 0.8); 
+    line-height: 1.6; margin-bottom: 0; 
+} 
+
+.testimony-card .stars { 
+    color: #FFC107; 
+    margin-bottom: 10px; 
+    font-size: 0.85rem; 
+    display: inline-block; }
+
+.footer {
+    background-color: #0F172A;
+}
+
+.footer .social-icon {
+    font-size: 1.6rem;
+    color: #E2E8F0;
+}
+
+.footer .social-icon:hover {
+    color: #F59E0B;
+}
+
+.section-divider {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.card:hover { 
+    background: #fff !important;
+    border: 1px solid rgba(0,0,0,0.015); 
+    border-radius: 16px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+    transform: translateY(-6px);
+    transition: .3s;
+}
